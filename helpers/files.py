@@ -21,6 +21,6 @@ def create_file(dir_name: str, file_name: str) -> bool:
         return False
 
 def add_username(dir_name: str, file_name: str, username: str):
-    with open(f"./{dir_name}/{file_name}.txt", 'w') as f:
+    with open(f"./{dir_name}/{file_name}.txt", 'a') as f:
         f.write(f"\n{URL_Base}/@{username}")
         f.close()
