@@ -30,7 +30,7 @@ if __name__ == "__main__":
     Checker.setup()
     
     try:
-        with open("file.txt", "r") as f:
+        with open("usernames.txt", "r") as f:
             lines = f.readlines()
             if not lines:
                 raise Exception(f"{Fore.RED}[ERROR]{Fore.RESET} File is empty, please add some usernames.")
