@@ -6,8 +6,8 @@ class Checker:
     
     def setup() -> bool:
         if create_dir("data") == True:
-            create_file("data", "claimed")
-            create_file("data", "unclaimed")
+            create_file("data", "available")
+            create_file("data", "unavailable")
             return True 
         else:
             return False
