@@ -1,5 +1,8 @@
 # TikTok Username Checker
 
+## NOTE: 
+The method used seems to have been patched, you can try it on your own if you want or you can update the code to make it work.
+
 Working TikTok Username Checker to check a list of usernames for valid and invalid ones, the program sorts usernames into different txt files based of if the usernames are available or unavailable, the program currently has bugs but somewhat works, it is a proof of concept to show what can be done with some simple python programming and I haven't and will not run it on a production version of tiktok as it IS agains't their Terms Of Service.
 
 ## Screenshot
